@@ -1,0 +1,120 @@
+body {background-color: #8B8B8B;}
+body{
+margin: 0 auto;
+max-width: 100%;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+.solimage{
+border-spacing: 0;
+position: absolute;
+left: 300px;
+top: 110px;
+}
+button {
+width: 150px;
+box-shadow: 10px 5px 5px #414347;
+  background-color: #000000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+form {
+width:350px;
+position: relative;
+left: 850px;
+top: 150px;
+
+}
+input {
+box-shadow: 10px 5px 5px #414347;
+width: 60%;
+height: 30px;
+}
+.leftbar{
+position: absolute;
+left: 0;
+width:   200px;
+height: 1080px;
+background-color: #161616;
+}
+.rightbar{
+position: absolute;
+right: 0;
+width:   200px;
+height: 1080px;
+background-color: #161616;
+}
+.rightbar a:link {
+  color: #C9C2C2;
+}
+.rightbar a:visited {
+  color: #C9C2C2;
+}
+.rightbar a:hover {
+  color: white;
+}
+.rightbar li{
+position: relative;
+top: 150px;
+left: 25px;
+font-size: 30;
+}
+.topbar{
+position: absolute;
+top: 0;
+width: 100%;
+height: 100px;
+background-color: #000000;
+}
+.topbar li{
+position: relative;
+top: 27px;
+left: 70px;
+font-size: 22;
+}
+
+.topbar a:link{
+  color: #C9C2C2;
+}
+.topbar a:visited {
+  color: #C9C2C2;
+}
+.topbar a:hover {
+  color: white;
+}
+.topleftimage {
+border-spacing: 0;
+position: absolute;
+top: 0px;
+left: 0px;
+}
+.login {
+width:   200px;
+height: 100px;
+position: absolute;
+top: 0;
+right: 0;
+background-color: #000000;
+}
+.login a{
+position: relative;
+top: 70px;
+right: 30px;
+font-size: 22;
+}
+.login a{
+  color: #C9C2C2;
+}
+
+.login a:link{
+  color: #C9C2C2;
+}
+.login a:visited {
+  color: #C9C2C2;
+}
+.login a:hover {
+  color: white;
+}
